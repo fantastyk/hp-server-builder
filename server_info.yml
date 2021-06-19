@@ -1,0 +1,28 @@
+---
+global:
+  spp_iso: "spp032020.iso"
+  spp_format: "DVD"
+  os_iso: "server-2019-datacenter-np-hp-work-ansible.iso"
+  os_format: "DVD"
+  os_type: "windows"
+  # floppy_img: "unattend.img"
+  # floppy_format: "floppy"
+ilo_settings:
+  ilokey: ""
+  Username: "Administrator"
+  Password: ""
+  disksetup:
+    os_drive:
+      Raid1:
+        - 1I:1:1
+        - 1I:1:2
+      Raid10: 
+        - 1I:1:3
+        - 1I:1:4
+        - 2I:1:5
+        - 2I:1:6
+        - 2I:1:7
+        - 2I:1:8
+        
+
+  

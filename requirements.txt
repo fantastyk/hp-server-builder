@@ -1,0 +1,4 @@
+pika
+python-ilorest-library
+colorama
+pypsrp

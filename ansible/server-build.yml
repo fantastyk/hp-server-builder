@@ -1,0 +1,7 @@
+---
+
+- name: Ping test - normal
+  hosts: all
+  gather_facts: no
+  tasks:
+    - win_ping:

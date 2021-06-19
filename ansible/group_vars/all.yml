@@ -1,0 +1,6 @@
+ansible_user: Administrator 
+ansible_password: Password
+ansible_port: 5986
+ansible_connection: psrp
+ansible_psrp_cert_validation: ignore
+ansible_psrp_auth: ntlm
